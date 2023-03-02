@@ -44,7 +44,7 @@ nav a:hover {
     cursor: pointer;
 }
 .jumbo-tron {
-    margin-top: 80px;
+    margin-top: 50px;
     display: flex;
     padding: 122px 40px;
     max-height: 100vh;
@@ -133,6 +133,11 @@ table tr {
 .profile figcaption {
     font-size: 14px;
 }
+
+table th {
+    text-align: left;
+}
+
 footer {
     background-color: #3d405b;
     padding: 5px;
@@ -208,6 +213,14 @@ footer a {
     }
 
     nav a {
+        font-size: 14px;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+    }
+
+    .card .isi-artikel {
         font-size: 14px;
     }
 }
