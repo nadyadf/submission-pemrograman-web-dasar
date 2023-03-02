@@ -187,3 +187,18 @@ footer a {
         width: 200px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    header nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        padding: 0 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
