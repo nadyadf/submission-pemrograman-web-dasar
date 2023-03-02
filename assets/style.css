@@ -44,9 +44,10 @@ nav a:hover {
     cursor: pointer;
 }
 .jumbo-tron {
-    margin-top: 50px;
     display: flex;
-    padding: 122px 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
     height: 100vh;
     background-color: #f4f1de;
     border-radius: 4px;
@@ -71,6 +72,7 @@ nav a:hover {
     background-color: #3d405b;
     color: #f2cc8f;
     padding: 20px 40px;
+    margin: 0 15px;
     text-align: center;
     font-weight: 550;
     font-size: 1.1em;
@@ -89,6 +91,7 @@ main {
     color: #e07a5f;
     font-weight: 600;
     letter-spacing: 1.5;
+    margin: 2.5rem 15px 1.5rem 15px;
     margin-top: 2.5rem;
 }
 .card {
@@ -172,7 +175,8 @@ footer a {
         width: 100%;
     }
     .jumbo-tron {
-        display: block;
+        /* display: block; */
+        flex-direction: column;
         padding: 82px 40px;
         text-align: center;
     }
@@ -207,7 +211,7 @@ footer a {
         display: flex;
         justify-content: space-between;
     }
-    
+
     header, main {
         padding: 0;
     }
@@ -220,6 +224,10 @@ footer a {
         font-size: 14px;
     }
 
+    .jumbo-tron {
+        justify-content: space-around;
+    }
+
     .card h3 {
         font-size: 1rem;
     }
@@ -227,4 +235,13 @@ footer a {
     .card .isi-artikel {
         font-size: 14px;
     }
+
+    .profile figcaption {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
 }
