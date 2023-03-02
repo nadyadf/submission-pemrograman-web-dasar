@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #c9ada7;
+    background-color: white;
     font-family: 'Montserrat Alternates', sans-serif;
     letter-spacing: 1.2px;
     font-weight: 500;
@@ -17,7 +17,7 @@ header {
     padding: 15px;
 }
 nav {
-    background-color: #9a8c98;
+    background-color: #3d405b;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,8 +39,8 @@ nav a {
     transition: 0.5s;
 }
 nav a:hover {
-    color: white;
-    background-color: #4a4e69;
+    color: black;
+    background-color: #f4f1de;
     cursor: pointer;
 }
 .jumbo-tron {
@@ -48,7 +48,7 @@ nav a:hover {
     display: flex;
     padding: 122px 40px;
     max-height: 100vh;
-    background-color: #f2e9e4;
+    background-color: #f4f1de;
     border-radius: 4px;
 }
 .jumbo-tron img {
@@ -62,13 +62,14 @@ nav a:hover {
 .jumbo-tron-side h1 {
     font-size: 4.5em;
     font-family: 'Lobster', cursive;
-    color: #4a4e69;
+    color: #e07a5f;
 }
 .jumbo-tron-side p {
     font-size: 1.5em;
 }
 #quotes {
-    background-color: #e7c6ff;
+    background-color: #3d405b;
+    color: #f2cc8f;
     padding: 20px 40px;
     text-align: center;
     font-weight: 550;
@@ -85,20 +86,27 @@ main {
     float: left;
 }
 .content-title {
-    color: #f2e9e4;
+    color: #e07a5f;
     font-weight: 600;
     letter-spacing: 1.5;
+    margin-top: 2.5rem;
 }
 .card {
-    background-color: #f2e9e4;
-    padding: 10px 25px;
+    background-color: #f4f1de;
+    padding: 20px 30px;
     box-shadow: 0 4px 8px 0 rgba(34, 34, 59, 0.2);
     margin-bottom: 15px;
     border-radius: 4px;
+    color: #212529;
 }
 .card h3 {
-    color: #22223b;
+    color: #212529;
     font-size: 1.2em;
+    text-align: center;
+}
+.card .isi-artikel {
+    font-size: 15px;
+    margin-top: 2rem;
 }
 aside {
     width: 25%;
@@ -153,6 +161,7 @@ footer a {
 
 }
 @media screen and (max-width:1100px) {
+
     .content,
     aside {
         width: 100%;
