@@ -47,7 +47,7 @@ nav a:hover {
     margin-top: 50px;
     display: flex;
     padding: 122px 40px;
-    max-height: 100vh;
+    height: 100vh;
     background-color: #f4f1de;
     border-radius: 4px;
 }
