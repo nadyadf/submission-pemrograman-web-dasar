@@ -207,6 +207,10 @@ footer a {
         display: flex;
         justify-content: space-between;
     }
+    
+    header, main {
+        padding: 0;
+    }
 
     nav {
         padding: 0 5px;
