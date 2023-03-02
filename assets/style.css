@@ -178,6 +178,7 @@ footer a {
     .jumbo-tron {
         /* display: block; */
         flex-direction: column;
+        justify-content: center;
         padding: 82px 40px;
         text-align: center;
     }
